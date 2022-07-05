@@ -3,6 +3,8 @@
 /**
  * _islower - checks if character is lowercase
  *
+ * @c: alphabet to be checked
+ *
  * Return: returns 1 if the character is lowercase
  * returns 0 if the character in not lowercase
  */
