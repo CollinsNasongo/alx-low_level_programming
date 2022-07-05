@@ -3,3 +3,4 @@
  */
 
 int _putchar(char value);
+void print_alphabet(void);
