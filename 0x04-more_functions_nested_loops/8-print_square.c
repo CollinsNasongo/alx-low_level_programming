@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ * print_square - print a square using # character
+ *
+ * @size: the number of # on length and width
+ *
+ * Return: void
+ */
+void print_square(int size)
+{
+	int length, width;
+	char hash = '#';
+
+	if (size > 0)
+	{
+		for (length = 0; length <= size; length++)
+		{
+			for (width = 0; width < size; width++)
+			{
+				_putchar('#');
+				if (height == size - 1)
+					continue;
+				_putchar('\n');
+			}
+		}
+	}
+	_putchar('\n');
+}
