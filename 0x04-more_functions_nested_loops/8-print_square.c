@@ -10,7 +10,6 @@
 void print_square(int size)
 {
 	int length, width;
-	char hash = '#';
 
 	if (size > 0)
 	{
