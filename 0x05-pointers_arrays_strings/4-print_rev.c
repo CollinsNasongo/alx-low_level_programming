@@ -11,7 +11,7 @@ void print_rev(char *s)
 {
 	int i, length;
 	int index = 0;
-	char reverse[];
+	char reverse[10000];
 
 	while (s[index] != '\0')
 	{
