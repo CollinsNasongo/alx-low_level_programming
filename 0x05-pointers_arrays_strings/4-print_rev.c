@@ -9,5 +9,20 @@
  */
 void print_rev(char *s)
 {
+	int i, length;
+	int index = 0;
+	char reverse;
 
+	while (s[index] != '\0')
+	{
+		index++;
+	}
+	length = index - 1;
+	for (i = 0; i < index; i++)
+	{
+		reverse[i] = s[length];
+		_putchar(reverse[i]);
+		length--;
+	}
+	_putchar('\n');
 }
