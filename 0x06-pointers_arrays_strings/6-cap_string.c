@@ -23,9 +23,9 @@ char *cap_string(char *str)
 		}
 	for (int i = 0; i < length; i++)
 	{
-		if(str[i] == ' ')
+		if (str[i] == ' ')
 		{
-			if(i + 1 < length && str[i + 1] != ' ')
+			if (i + 1 < length && str[i + 1] != ' ')
 				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
 					str[i + 1] = str[i + 1] - 32;
