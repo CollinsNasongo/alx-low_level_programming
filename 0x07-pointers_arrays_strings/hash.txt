@@ -1,0 +1,2 @@
+This is the md5 hash used for the password
+e99a18c428cb38d5f260853678922e03
