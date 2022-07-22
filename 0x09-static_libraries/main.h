@@ -1,7 +1,3 @@
-/**
- * This is a header file that contains a list of functions used
- */
-
 #ifndef MAIN_H
 #define MAIN_H
 
