@@ -12,7 +12,7 @@ int main(int argc, char __attribute__((__unused__)) *argv[])
 {
 	int counter;
 
-	for(counter = 0; counter < (argc-1); counter++)
+	for (counter = 0; counter < (argc - 1); counter++)
 		;
 
 	printf("%d\n", counter);
