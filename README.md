@@ -1,1 +1,1 @@
-This repository consists of c programs and scripts
+creating user defined data types with struct
