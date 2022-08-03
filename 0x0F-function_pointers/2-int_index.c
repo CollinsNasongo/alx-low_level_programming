@@ -5,7 +5,7 @@
  *
  * @array: the array
  * @size: the size of an array
- * @cpm: a function to compare values
+ * @cmp: a function to compare values
  *
  * Return: index to the location of the integer
  */
