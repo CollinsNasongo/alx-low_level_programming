@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int num_1, num_2, result;
-	char opr;
+	char p, o;
 
 	if (argc != 4)
 	{
@@ -19,8 +19,10 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	opr = argv[2][0];
-	if ((opr != '+' || opr != '-' || opr != '*' || opr != '/' || opr != '%') && argv[2][1] != '\0')
+	p = argv[2][0];
+	o = argv[2][1];
+
+	if ((p != '+' || p != '-' || p != '*' || p != '/' || p != '%') && o != '\0')
 	{
 		printf("Error\n");
 		exit(99);
@@ -28,13 +30,13 @@ int main(int argc, char *argv[])
 
 	num_1 = atoi(argv[1]);
 	num_2 = atoi(argv[3]);
-	if ((opr == '/' || opr == '%') && num_2 == 0)
+	if ((p == '/' || p == '%') && num_2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
-	result = get_op_func(&opr)(num_1, num_2);
+	result = get_op_func(&p)(num_1, num_2);
 	printf("%d\n", result);
 	return (0);
 }
