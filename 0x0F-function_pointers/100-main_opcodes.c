@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	if (byte_num < 0)
 	{
 		printf("Error\n");
-		exit (2);
+		exit(2);
 	}
 
 	for (idx = 0; idx < byte_num; idx++)
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 		op_code = *(unsigned char *)address;
 		printf("%.2x", op_code);
 
-		if (idx == byte_num -1)
+		if (idx == byte_num - 1)
 			continue;
 		printf(" ");
 		address++;
