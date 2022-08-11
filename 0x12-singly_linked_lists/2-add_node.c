@@ -13,7 +13,7 @@ list_t *add_nde(list_t **head, const char *str);
 list_t *add_node(list_t **head, const char *str)
 {
 	char *cpy = strdup(str);
-	unsigned int len = strlen(cpy);
+	unsigned int len;
 	list_t *new_node = malloc(sizeof(list_t));
 
 	if (new_node == NULL)
@@ -23,6 +23,9 @@ list_t *add_node(list_t **head, const char *str)
 		free(new_node);
 		return (NULL);
 	}
+
+	for (len = 0; str[len] != '\0'; len++)
+		;
 
 	new_node->str = cpy;
 	new_node->len = len;
