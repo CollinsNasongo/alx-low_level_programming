@@ -1,11 +1,11 @@
 #include "lists.h"
 
-/*
- * pop_listint - delete head node of a list
+/**
+ * pop_listint - deletes head node of a list
  *
- * @head: pointer to pointer to the head of a list
+ * @head: pointer to pointer to head node
  *
- * Return: the number n or 0 if list is empty
+ * Return: the value n of the head of list or NULL if empty
  */
 int pop_listint(listint_t **head)
 {
