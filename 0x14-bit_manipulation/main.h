@@ -1,7 +1,3 @@
-/**
- * This file contains a list of all functions used
- */
-
 #ifndef MAIN_H
 #define MAIN_H
 
