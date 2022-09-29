@@ -3,7 +3,7 @@
 /**
  * get_dnodeint_at_index - get the nth node of dlist
  *
- * @head: pointer to the head of dlist
+ * @head: pointer to the head of dllist
  * @idx: the index to get element from
  *
  * Return: nth node or NULL if doesnt exist
