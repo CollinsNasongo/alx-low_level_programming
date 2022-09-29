@@ -3,7 +3,7 @@
 /**
  * dlistint_len - get number of elements in dlist
  *
- * @h: pointer to the head of a dlist
+ * @h: pointer to the head of a dllist
  *
  * Return: number of elements
  */
