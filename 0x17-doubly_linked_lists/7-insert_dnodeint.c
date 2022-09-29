@@ -44,7 +44,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 }
 
 /**
- * get_len - get number of elements in dlist
+ * get_len - get number of elements in dllist
  *
  * @h: pointer to the head of a dlist
  *
